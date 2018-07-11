@@ -1,0 +1,62 @@
+<?php
+require(dirname(__FILE__) . '/includes/boot.php');
+$userID = cr_is_logged_in();
+
+if (isset($_POST['action']) && $_POST['action']=='getalbums') {
+	
+	$userID = cr_is_logged_in();
+	$uID = $_POST['userID'];
+	
+	if (!$userID || !($userID['id'] == $uID)){
+		cr_add_message(MSG_INVALID_LOGIN_INFO);
+		return FALSE;
+	}
+	
+	$albums = crAlbum::getAlbumsByUserId($uID);
+	
+	
+	foreach ($albums as $alb){
+	//	$photos = crAlbum::getPhotos($alb);	
+		echo '<tr>
+				<td>
+					<a class="albumLink" id="albumID-'.$alb['albumID'].'">'.$alb['name'].'</a>
+				</td>
+				<td>'.$alb['photos'].' photos </td>	
+				<td>'.$alb['created_date'].'</td>
+			</tr>';
+			//var_dump($alb);
+		
+	}
+} elseif (isset($_POST['action']) && $_POST['action']=='getphotos') {
+	$albumID = $_POST['albumID'];
+	
+	$albumPhotos = crAlbum::getAlbumPhotos($albumID);
+	
+	//if (!$albumPhotos)
+	echo '<tr>
+			<td><span class="img-thumb"/>
+			</td>';
+	$x=1;
+	
+	foreach ($albumPhotos as $photo){
+		$x +=1;
+		$photoFilename = '/images/users/'.$photo['ownerID'].'/'.$photo['folder_token'].'/'.$photo['name'];
+		echo '<td>
+			<span class="img-thumb" style="background-image: url('.$photoFilename.');"/>
+			</td>';
+			
+		if ($x == 5)
+		{
+			$x = 0;
+			echo '</tr><tr>';
+		}
+	}
+	
+	echo '</tr>';
+	
+} elseif (isset($_POST['action']) && $_POST['action']=='setprofilephotos') {
+	crUser::updateUserProfileByPhotoURL($userID['id'], $_POST['photo'])
+
+}
+
+?>

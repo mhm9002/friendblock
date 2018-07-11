@@ -1,0 +1,24 @@
+.social {
+    width : 70%;
+    text-align: center;
+    margin-top: 40px;
+    background: rgba(255,255,255,0.6);
+    padding: 15px;
+}
+
+.social input {
+    height: 40px;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.social label {
+    margin: auto;
+    font-size: 16px;
+}
+
+.social button {
+    height: 40px;
+    padding: 5px;
+}

@@ -1,0 +1,91 @@
+
+h1 {
+    color: yellow;
+}
+
+div {
+    font-family:Courier New, Courier, monospace;
+}
+
+
+.blue-colored {
+    background-color: blue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #ccc;
+    margin: 20px;
+    padding: 20px;
+    font-family: fantasy;
+}
+
+.blue-colored:hover {
+    background-color: red;
+    box-shadow: 10px 10px 10px #000;
+}
+
+.table-basic {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+    word-break: normal;
+    white-space: pre-wrap;
+    font-family: cursive;
+}
+
+.table-basic td {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+
+.table-basic td:last-child {
+    border-right: 0;
+    font-style: italic;
+}
+
+.table-basic td:first-child {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.table-basic th{
+    background-color: antiquewhite;
+}
+
+.intro {
+    background-color: firebrick;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+#zaina {
+    color: blue;
+    text-align: center;
+}
+
+#ghadeer{
+    background-color: crimson;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(230, 198, 198);
+    text-align: center;
+    padding: auto;
+}
+
+#hi{
+    color: black;
+    margin-top: 20px;
+    font-size: 24px;
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+#hi:hover{
+    box-shadow: 5px 5px 5px #888;
+}

@@ -1,0 +1,45 @@
+#register-wrapper{
+	margin-bottom: 10px;
+	position: relative;
+	background-image: url("/images/buttons.svg");
+	background-color: d3d3d3;
+	background-repeat: repeat;
+	background-size: 400px;
+	height: fit-content;
+	height: -webkit-fill-available;
+}
+
+#artForm{
+	width: 60%;
+	margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+	background : rgba(255,255,255,0.95);
+	box-shadow: 0 0 20px #000;
+	padding: 15px
+}
+
+#artForm input {
+    margin: 10px;
+}
+
+.btn-primary{
+	height: 40px !important;
+	border-radius: 3px;
+}
+
+.fieldset {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #006699;
+    margin: 10px;
+}
+
+#mainmnu{
+    display: none;
+    background: #09f780; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #09f780 , #10deef); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #09f780 , #10deef); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #09f780 , #10deef); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #09f780 , #10deef); /* Standard syntax */
+}

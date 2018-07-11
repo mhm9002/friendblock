@@ -1,0 +1,315 @@
+.navbar-mobile {
+	height: 200px;
+}
+
+.mobile {
+	height: 60px;
+	font-size: 40px;
+	text-align: center;
+	margin: auto;
+}
+
+input.mobile{
+	width: 90%;
+	font-size: 40px;
+	height: 60px;
+	margin: auto;
+}
+
+button.mobile{
+	height: 60px;
+    font-size: 40px;
+    margin: auto;
+    width: 90%;
+	margin-top: 30px;
+	display: block;
+}
+
+a.mobile {
+	padding: unset;
+}
+
+#wrapper {
+    font-size: 28px;
+}
+.comment-item	{
+    font-size: 24px;
+    min-width: unset;
+}
+
+#right_side, #middle_side {
+    width: 90%;
+    float: unset;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+#main_aside	{
+    width: 90%;
+    float: unset;
+    margin: auto;
+    max-width: unset;
+    margin-top: 50px;
+    font-size: 28px !important;
+}
+.new-post-row{
+    margin-left: auto;
+    margin-right: auto;
+}
+input.newcomment{
+    font-size: 24px;
+}
+
+.modal-dialog{
+    width: 90%;
+    max-width: unset;
+    margin-top: 200px;
+}
+
+#login-wrap{
+    display: none;
+}
+
+#fb-login, #g-login {
+    width: 90%; 
+    height: 80px;
+    margin-top: 30px;
+}
+
+#new-account {
+    width: 90%;
+    float: unset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+}
+
+#new-account :host{
+    font-size: 28px;
+}
+
+#new-account .input {
+    height: 60px;
+    font-size: 36px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    width: auto;
+    min-width: 136px;
+    height: auto !important;
+    margin: auto;
+    font-size: 36px;
+    white-space: pre-wrap;
+}
+
+.full-width {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titles {
+    font-size: 32px;
+}
+
+h6 {
+    font-size: 32px;
+}
+
+.new-post-nav a {
+    font-size: 50px;
+    float: unset;
+    margin-left: 30px;
+}
+
+.new-post-nav .btn-primary {
+    width: unset;
+}
+
+th {
+    text-align: center;
+}
+
+.tweetIcons {
+    width : 80px !important;
+    height : 80px !important;
+}
+
+.commentIcons {
+    width : 50px !important;
+    height : 50px !important;
+}
+
+.panel-header, .panel-userdata {
+    font-size: unset;
+    text-align: center;
+}
+
+.select {
+    font-size: unset;
+}
+
+.tab {
+    font-size: 28px;
+}
+
+.notification-count {
+    font-size: 20px;
+    width: 36px !important;
+    height: 36px !important;
+}
+
+.notif-box {
+    width: 90%;
+}
+
+.replyToPostIcons {
+    width: 50px;
+    height: 50px;
+}
+
+#new-video-url {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#new-video-url .input {
+    width: 70%;
+    font-size: unset;
+}
+
+.video-url-label {
+	font-size:unset;
+}
+
+.mobile-menu {
+    position: absolute;
+	width: 100%;
+	top: 200px;
+    left: 0;
+    display: none;
+    background: rgba(255,255,255,0.9);
+}   
+
+.mobile-menu-item {
+    height : 120px;
+    text-align: center;
+    color: var(--primaryColor, #006699);
+    border-bottom: 1px solid #888;
+    display: block;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mobile-search {
+    overflow: hidden;
+}
+
+.mobile-menu-grid1 {
+    display: inline-grid;
+    grid-template-columns: 60% 15% 15%;
+    margin: auto;
+    margin-left: 0px; 
+    margin-right: 0px;
+}
+
+.mobile-menu-grid2 {
+    grid-template-columns: 0% 75% 15%;
+}
+
+#mobile-search-link {
+    width: 10;
+    display: inline-block;
+}
+
+.nav-link:hover, .nav-link:focus {
+    box-shadow: unset;
+}
+
+#main_section {
+    margin-top: 180px;
+}
+
+.social {
+    width : 90%;
+    text-align: center;
+    margin-top: 280px;
+    background: rgba(255,255,255,0.6);
+    padding: 15px;
+}
+
+.social input {
+    height: 60px;
+    font-size: 28px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.social label {
+    margin: auto;
+    font-size: 28px;
+}
+
+.social button {
+    height: 60px;
+    padding: 15px;
+}
+
+#main_social_section {
+	width: 100%;
+	height: -webkit-fill-available;
+	background-image: url("/images/floating-cogs.svg");
+	background-size: cover;
+	border: 1px solid #DDDDDD;
+	display: inline-block	
+}
+
+
+#main_profilebar,#main_searchbar{
+	margin-top: 20px;
+}
+
+#main_searchbar{
+    margin-top: 200px;
+}
+
+.search-tag-head{
+    font-size: 32px;
+}
+
+#middle_side{
+    margin-top: 140px;
+}
+
+.follow-button{
+    position: absolute; 
+	right: 10px; 
+    bottom: -80px;
+}
+
+.nav-tab-span{
+    font-size:16px;
+}
+
+.btn-file {
+	width: 200px !important;
+	height: 200px !important;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.remove-photo {
+	height:40px !important;
+	width:40px !important;
+	font-size: 20px;
+}
+
+.tweet-timestamp{
+    font-size: 26px;
+}

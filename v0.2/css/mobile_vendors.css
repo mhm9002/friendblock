@@ -1,0 +1,16 @@
+.suggest>.dropdown-menu{
+    font-size: 32px;
+}
+
+.ui-menu .ui-menu-item a {
+    font-size: 32px;
+}
+
+.search-autocomplete-tag{
+    font-size: 24px;
+}
+
+.searchIcons{
+    width: 60px;
+    height: 60px;
+}
